@@ -56,4 +56,18 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // MVVM & Lifecycle
+    implementation (libs.lifecycle.livedata.ktx)
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
+
+    // Retrofit & Gson
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+
+    // Coroutines
+    implementation (libs.kotlinx.coroutines.android)
+
+    // Hilt
+    implementation (libs.hilt.android)
 }
