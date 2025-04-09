@@ -5,4 +5,7 @@
     <string name="txt_android_logo_login">Android Logo Login</string>
     <string name="txt_enter_your_user_id">Enter your user ID</string>
     <string name="txt_login">Login</string>
+    <string name="txt_employee_list">Employee List</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_age">Age</string>
 </resources>
